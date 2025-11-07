@@ -1,8 +1,75 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
 
-.center-container{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
+.center-container {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #6a5acd;
+  margin-bottom: 20px;
+}
+
+.input-area input {
+  padding: 10px;
+  width: 200px;
+  border: 2px solid #6a5acd;
+  border-radius: 8px;
+  outline: none;
+}
+
+.input-area button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #6a5acd;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.input-area button:hover {
+  background-color: #5941a9;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#taskList li {
+  background-color: #f5f3ff;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 8px;
+}
+
+.done-btn {
+  background-color: #ff6b6b;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 3px 8px;
+  margin-left: 10px;
+  transition: background-color 0.3s;
+}
+
+.done-btn:hover {
+  background-color: #e63946;
 }
